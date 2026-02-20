@@ -56,6 +56,7 @@
 	/datum/skill/combat/swords = SKILL_LEVEL_EXPERT,
 	/datum/skill/combat/polearms = SKILL_LEVEL_JOURNEYMAN,
 	/datum/skill/combat/crossbows = SKILL_LEVEL_JOURNEYMAN,
+	/datum/skill/combat/knives = SKILL_LEVEL_APPRENTICE,
 	/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE,
 	/datum/skill/craft/cooking = SKILL_LEVEL_EXPERT,
 	/datum/skill/misc/reading = SKILL_LEVEL_EXPERT,
@@ -128,6 +129,7 @@
 	subclass_skills = list(
 	/datum/skill/combat/swords = SKILL_LEVEL_JOURNEYMAN,
 	/datum/skill/combat/maces = SKILL_LEVEL_APPRENTICE,
+	/datum/skill/combat/knives = SKILL_LEVEL_APPRENTICE,
 	/datum/skill/misc/medicine = SKILL_LEVEL_EXPERT,
 	/datum/skill/craft/cooking = SKILL_LEVEL_EXPERT,
 	/datum/skill/combat/wrestling = SKILL_LEVEL_JOURNEYMAN,
@@ -187,6 +189,7 @@
 
 	subclass_skills = list(
 		/datum/skill/combat/staves = SKILL_LEVEL_JOURNEYMAN,
+		/datum/skill/combat/knives = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/swimming = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
 		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
@@ -218,6 +221,7 @@
 		/obj/item/paper/scroll = 1,
 	) //starts with a vial of poison, like all wizened evil advisors do!
 	armor = /obj/item/clothing/suit/roguetown/armor/leather/studded
+	r_hand = /obj/item/rogueweapon/woodstaff/quarterstaff/steel
 	pants = /obj/item/clothing/under/roguetown/tights/black
 	if(H.mind)
 		H.mind.AddSpell(new /obj/effect/proc_holder/spell/self/convertrole/heartfelt)
